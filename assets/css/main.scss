@@ -16,11 +16,11 @@ $base-line-height:      1;
 $dark-color:       #111;
 $light-color:      #eee;
 
-$text-color:       $dark-color;
-$text-color-light: $light-color;
-$background-color: #555555;
-$brand-color:      #38343A;
-$brand-color-2:    #503A4E;
+$text-color:       $light-color;
+$text-color-light: $dark-color;
+$background-color: #333333;
+$brand-color:      #6d5654;
+$brand-color-2:    #3d3634;
 
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 35%);
