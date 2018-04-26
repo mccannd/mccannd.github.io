@@ -98,7 +98,7 @@ h1, h2, h3, h4, h5, h6 {
  * Links
  */
 a {
-    color: lighten($brand-color, 20%);
+    color: #62aec5;
     text-decoration: none;
 
     @include transition($transition-base);
