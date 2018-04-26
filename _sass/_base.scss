@@ -19,7 +19,7 @@ dl, dd, ol, ul, figure {
  */
 body {
     background: $brand-color-2;
-    color: $text-color;
+    color: $text-color-light;
     font-family: $base-font-family;
     font-size: $base-font-size;
     font-weight: 400;
@@ -98,7 +98,7 @@ h1, h2, h3, h4, h5, h6 {
  * Links
  */
 a {
-    color: $brand-color;
+    color: lighten($brand-color, 20%);
     text-decoration: none;
 
     @include transition($transition-base);
@@ -108,7 +108,7 @@ a {
     }
 
     &:hover {
-        color: $grey-color;
+        color: $accent-color;
     }
 }
 
@@ -122,6 +122,7 @@ blockquote {
     margin-left: -($spacing-unit / 3);
     margin-right: -($spacing-unit / 3);
     padding: $spacing-unit / 3;
+    color: $text-color;
 
     > :last-child {
         margin-bottom: 0;

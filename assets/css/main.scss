@@ -13,16 +13,17 @@ $base-font-size:        16px;
 $small-font-size:       $base-font-size * 0.875;
 $base-line-height:      1;
 
-$dark-color:       #eee;
-$light-color:      #111;
+$dark-color:       #111;
+$light-color:      #eee;
 
-$text-color:       $light-color;
-$text-color-light: $dark-color;
-$background-color: #555555;
-$brand-color:      #6d5654;
-$brand-color-2:    #3d3634;
+$text-color:       $dark-color;
+$text-color-light: $light-color;
+$background-color: #2A2627;
+$accent-color:     #28cdff; /*#E32636;*/
+$brand-color:      #aaaaaa;
+$brand-color-2:    #1A1717;
 
-$grey-color:       #828282;
+$grey-color:       #888888;
 $grey-color-light: lighten($grey-color, 35%);
 $grey-color-dark:  darken($grey-color, 20%);
 

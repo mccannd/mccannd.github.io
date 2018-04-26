@@ -1,1 +1,3 @@
-Site based on Travelogue Jekyll theme.
+Under construction.
+
+[Peekk here.](mccannd.github.io)

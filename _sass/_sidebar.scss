@@ -17,7 +17,7 @@
     }
 
     .nav-icon {
-        background: $background-color;
+        background: $text-color-light;
         box-shadow: 0 0 8px 0 $dark-color;
         height: 2px;
         left: 50%;
@@ -28,7 +28,7 @@
         @include transform(translateX(-50%) translateY(-50%));
 
         &:after, &:before {
-            background: $background-color;
+            background: $text-color-light;
             box-shadow: inherit;
             content: '';
             height: 100%;
@@ -50,7 +50,7 @@
 
 .sb-slidebar {
     background: $dark-color;
-    color: $text-color-light;
+    color: $accent-color;
     letter-spacing: 1px;
     z-index: 2;
 
@@ -59,6 +59,10 @@
         letter-spacing: 2px;
         margin: 0;
         padding: $spacing-unit ($spacing-unit / 3);
+        color: $accent-color;
+        a:visited {
+            color: $accent-color;
+        }
     }
 
     .site-info {
